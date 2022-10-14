@@ -77,7 +77,7 @@
                             <div class="block ml-3 py-5 md:ml-10">
                                 <p class="block">Hello, I'm</p>
                                 <h2 class="block text-xl lg:text-4xl">Ibnu Syawal As-Salim</h2>
-                                <p class="text-sm opacity-70 mt-2">Backend Developer</p>
+                                <p class="text-sm opacity-70 mt-2">Web Developer</p>
                                 <div class="mt-3 md:mt-5 space-x-6">
                                     <a href="https://github.com/ibnusyawall">
                                     <i class="fab fa-github md:text-2xl hover:text-gray-300 transition duration-300 ease-in-out"></i>
@@ -211,6 +211,19 @@
                         </div>
                     </div>
                     <!--</div>-->
+                    <div id="shorturl" class="rounded-3xl overflow-hidden bg-gray-700">
+                        <img class="w-full rounded-t-3xl" src="https://raw.githubusercontent.com/kodingkeun/shorturl/main/src/public/images/screenshots/home.jpg" alt="Shorturl">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-gray-50 text-xl mb-2">SHORTURL</div>
+                            <p class="text-gray-50 text-justify text-sm">
+                                An application for url shortner.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-4">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">Express</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">EJS</span>
+                        </div>
+                    </div>
                 </div>
                 <!-- See More Button -->
                 <div class="text-gray-50 text-center py-5">
@@ -273,7 +286,7 @@
                     </div>
                     <div class="flex justify-center pt-5 text-gray-100">
                         <h1 class="bg-gray-700 px-5 py-5 rounded-xl">
-                            I'm a professional Backend Developer. I like to learn programming to more. My activities are making a website and sharing open source projects with Github. I am the type of person who likes to learn more deeply and collaborate with the project team.
+                            I'm a professional Web Developer. I like to learn programming to more. My activities are making a website and sharing open source projects with Github. I am the type of person who likes to learn more deeply and collaborate with the project team.
                         </h1>
                     </div>
                 </div>
@@ -292,7 +305,8 @@
             var sieskul = document.getElementById('si-eskul')
             var sikos = document.getElementById('si-kos')
             var mkelas = document.getElementById('m-kelas')
-            
+            var shorurl = document.getElementById('shorturl')
+
             siperpus.onclick = function() {
                 window.location.href = 'https://github.com/ibnusyawall/si-perpus.git'
             }
@@ -305,7 +319,9 @@
             mkelas.onclick = function() {
                 window.location.href = 'https://github.com/ibnusyawall/managemen-anggaran-kelas.git'
             }
-            
+            shorurl.onclick = function() {
+                window.location.href = 'https://shortkeun.xyz'
+            }
         </script>
     </body>
 </html>
