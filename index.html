@@ -224,6 +224,20 @@
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">EJS</span>
                         </div>
                     </div>
+                    <div id="sisfo-laundry" class="rounded-3xl overflow-hidden bg-gray-700">
+                        <img class="w-full rounded-t-3xl" src="assets/screenshots/sisfo-laundry.png" alt="SISFO LAUNDRY PREVIEW">
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-gray-50 text-xl mb-2">SISFO LAUNDRY</div>
+                            <p class="text-gray-50 text-justify text-sm">
+                                An application for managing managing laundry.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-4">
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">Laravel</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">MySQL</span>
+                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer hover:bg-gray-400 transition duration-300 ease-in-out">VueJS</span>
+                        </div>
+                    </div>
                 </div>
                 <!-- See More Button -->
                 <div class="text-gray-50 text-center py-5">
@@ -306,6 +320,7 @@
             var sikos = document.getElementById('si-kos')
             var mkelas = document.getElementById('m-kelas')
             var shorurl = document.getElementById('shorturl')
+            var sisfolaundry = document.getElementById('sisfo-laundry')
 
             siperpus.onclick = function() {
                 window.location.href = 'https://github.com/ibnusyawall/si-perpus.git'
@@ -321,6 +336,9 @@
             }
             shorurl.onclick = function() {
                 window.location.href = 'https://shortkeun.xyz'
+            }
+            sisfolaundry.onclick = function() {
+                window.location.href = 'https://sisfo-laundry.syawal.dev/dashboard'
             }
         </script>
     </body>
